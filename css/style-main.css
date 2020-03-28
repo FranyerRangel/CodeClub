@@ -1,8 +1,4 @@
 /*--------ESTILO GENERAL------------*/
-* {
-	border: solid 1px chocolate;
-}
-
 body {
 	margin: 0;
 	padding: 0;
@@ -17,6 +13,9 @@ body {
 	padding: 20px 40px;
 	background-color: #3A3A3A;
 	color: #fff
+	-webkit-box-shadow: 0px 8px 9px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 9px -8px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 9px -8px rgba(0,0,0,0.75);
 }
 
 .header__logo {
@@ -55,7 +54,7 @@ body {
 }
 
 .main__title {
-	font-size: 50px;
+	font-size: 70px;
 	text-align: center;
 }
 
@@ -133,4 +132,19 @@ body {
 
 .galery__img {
 	width: 40%;;
+}
+
+/*--------ESTILOS DE "FOOTER" ------------*/
+
+.footer {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #3A3A3A;
+	color: #fff;
+	text-align: center;
+}
+
+.footer__link {
+	font-weight: bold;
+	color: #4095FE;
 }
