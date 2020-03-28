@@ -48,7 +48,7 @@ body {
 /*--------ESTILOS DE LA SECCIÓN HEADER------------*/
 
 .section-header {
-	padding-top: 20px; 
+	padding: 20px 0; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -87,5 +87,38 @@ body {
 }
 
 .section-header__button:hover {
+	background: linear-gradient(80deg, #043979 0% , #2683F6 100%);
+}
+
+/*--------ESTILOS DE FEATURES ------------*/
+
+.features {
+	display: flex;
+	justify-content: space-around;
+	background-color: #3A3A3A;
+	color: white;
+	padding: 80px 0;
+}
+
+.features__container {
+	width: 30%;
+	text-align: center;
+}
+
+.features__img {
+	width: 150px;
+}
+
+.features__button {
+	padding: 12px;
+	width: 30%;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	background: linear-gradient(80deg, #044799 0% , #4095FE 100%);
+	cursor: pointer;
+	color: #fff;
+}
+
+.features__button:hover {
 	background: linear-gradient(80deg, #043979 0% , #2683F6 100%);
 }
