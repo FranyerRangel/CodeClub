@@ -1,0 +1,91 @@
+/*--------ESTILO GENERAL------------*/
+* {
+	border: solid 1px chocolate;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+/*--------ESTILOS DEL HEADER------------*/
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+	background-color: #3A3A3A;
+	color: #fff
+}
+
+.header__logo {
+	width: 120px;
+}
+
+.nav {
+	width: 40%;
+}
+
+.nav__ul {
+	display: flex;
+	list-style: none;
+	padding-inline-start: 0;
+	justify-content: space-around;
+}
+
+.nav__link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__link--disable {
+	text-decoration: none;
+	pointer-events: none;
+	color: #B4B4B4;
+}
+
+/*--------ESTILOS DE LA SECCIÓN HEADER------------*/
+
+.section-header {
+	padding-top: 20px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__title {
+	font-size: 50px;
+	text-align: center;
+}
+
+.section-header__container-text {
+	width: 48%;
+}
+
+.section-header__container-img {
+	width: 30%;
+}
+
+.section-header__img {
+	width: 100%;
+}
+
+.section-header__text {
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+.section-header__button {
+	padding: 12px;
+	width: 30%;
+	border-radius: 20px;
+	border: 2px solid #3A3A3A;
+	background: linear-gradient(80deg, #044799 0% , #4095FE 100%);
+	cursor: pointer;
+	color: #fff;
+}
+
+.section-header__button:hover {
+	background: linear-gradient(80deg, #043979 0% , #2683F6 100%);
+}
