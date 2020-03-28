@@ -122,3 +122,15 @@ body {
 .features__button:hover {
 	background: linear-gradient(80deg, #043979 0% , #2683F6 100%);
 }
+
+/*--------ESTILOS DE "GALERY" ------------*/
+
+.galery {
+	display: flex;
+	padding: 80px 0;
+	justify-content: space-around;
+}
+
+.galery__img {
+	width: 40%;;
+}
